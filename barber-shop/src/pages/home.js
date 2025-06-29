@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css';
-
+import barberBg from '../Images/barber-background.jpg';
+import Navbar from '../Navbar';
 const Home = () => {
     return (
         <div className="HomeScreenText">
@@ -8,7 +9,6 @@ const Home = () => {
             <h1>NYC'S FAVOURITE <br />BARBER SHOP</h1>
             <h3>DIAGON ALLEY, NYC. APPOINTMENT:999 000 8888</h3>
         </div>
-
     );
 };
 

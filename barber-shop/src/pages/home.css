@@ -2,13 +2,18 @@
     padding-top: 250px;
     font-family: Helvetica;
     font-weight: bold;
+    background-image: url('../Images/barber-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
 }
 
 h1 {
     font-size: 60px;
+    color: white;
 }
 
-.secondTitle {
-    padding-top: 5px;
-
+h3 {
+    color: white;
 }
