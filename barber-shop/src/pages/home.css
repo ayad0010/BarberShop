@@ -17,3 +17,18 @@ h1 {
 h3 {
     color: white;
 }
+
+button {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: black;
+    height: 60px;
+    width: 250px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.Reviews {
+    color: black;
+}
