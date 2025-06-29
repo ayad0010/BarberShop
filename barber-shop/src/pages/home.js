@@ -1,7 +1,5 @@
 import React from 'react'
 import './home.css';
-import barberBg from '../Images/barber-background.jpg';
-import Navbar from '../Navbar';
 const Home = () => {
     const bookingClick = () => {
         alert('Booking click!');
