@@ -54,10 +54,6 @@ const Home = () => {
                 <h2>News</h2>
             </div>
 
-            <div className="Footer">
-                <h2>Footer</h2>
-            </div>
-
         </div>
         
     );
