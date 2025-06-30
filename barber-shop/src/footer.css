@@ -24,6 +24,9 @@
     text-align: left;  
 }
 
+.contactInfo { 
+    text-align: left;
+}
 
 
 .icons {
@@ -34,6 +37,41 @@
 
 .icons svg {
     margin: 0 14px; /* wider spacing */
-
 }
 
+
+.phone-icon {
+    font-size: 25px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between icon and number */
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mail-icon {
+    font-size: 25px;
+}
+
+.copyright-statement {
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left:800px;
+    padding-bottom: 30px;
+}
+.copyright-icon {
+    font-size: 25px;
+}
