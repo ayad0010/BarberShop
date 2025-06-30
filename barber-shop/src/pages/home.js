@@ -1,5 +1,10 @@
 import React from 'react'
 import './home.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleArrowDown } from '@fortawesome/free-solid-svg-icons';
+
+
 const Home = () => {
     const bookingClick = () => {
         alert('Booking click!');
@@ -12,10 +17,18 @@ const Home = () => {
             <h1>NYC'S FAVOURITE <br />BARBER SHOP</h1>
             <h3>DIAGON ALLEY, NYC. APPOINTMENT:999 000 8888</h3>
             <br />
+
+            
             <button onClick={bookingClick}>
                 BOOK APPOINTMENT
             </button>
+            <br />
+            <div className="arrowDown">
+                <FontAwesomeIcon icon={faCircleArrowDown} />
             </div>
+            
+            </div>
+
 
             <div className="Welcome">
                 <h2>Welcome to The Barber Shop!</h2>

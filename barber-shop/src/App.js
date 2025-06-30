@@ -7,6 +7,7 @@ import Home from './pages/home';
 import Services from './pages/services';
 import Book from './pages/book';
 import Navbar from './Navbar';
+import Footer from './footer';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <Route path="/book" element={<Book />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
+        
       </Router>
       
     </div>

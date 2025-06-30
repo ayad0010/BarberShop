@@ -1,0 +1,41 @@
+.footer {
+    color: white;
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    flex-wrap: wrap; 
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+.SocialMediaInfo {
+    text-align: left;
+}
+
+.address {
+    text-align: center;  
+}
+
+.contactInfo {
+    text-align: right;
+}
+
+.icons {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+
+.icons svg {
+    margin: 0 14px; /* wider spacing */
+
+}
+
