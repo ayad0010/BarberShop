@@ -21,12 +21,10 @@
 }
 
 .address {
-    text-align: center;  
+    text-align: left;  
 }
 
-.contactInfo {
-    text-align: right;
-}
+
 
 .icons {
     font-size: 40px;

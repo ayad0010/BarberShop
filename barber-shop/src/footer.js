@@ -19,6 +19,8 @@ const Footer = () => {
 
             <div className="address">
                 <h3>VISIT US</h3>
+                <p>934 Diagon Alley</p>
+                <p>Bristol, NYC, 3000</p>
             </div>
 
             <div className="contactInfo">
