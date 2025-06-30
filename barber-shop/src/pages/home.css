@@ -46,3 +46,29 @@ button {
     stroke: black;
     stroke-width: 2;
 }
+
+.time-group {
+    gap: 60px;
+    display: flex;
+}
+
+.day-range {
+    margin-left: 1300px;
+}
+
+
+.time-range1 {
+    margin-left: 100px;
+}
+
+.time-range2 {
+    margin-left: 15px;
+}
+
+.time-range3 {
+    margin-left: 163px;
+}
+
+.time-range4 {
+    margin-left: 170px;
+}

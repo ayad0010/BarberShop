@@ -4,7 +4,6 @@ import './home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowDown } from '@fortawesome/free-solid-svg-icons';
 
-
 const Home = () => {
     const bookingClick = () => {
         alert('Booking click!');
@@ -39,7 +38,27 @@ const Home = () => {
             </div>
 
             <div className="Opening-Hours">
-                <h2>Opeming Hours</h2>
+                <h2>Opening Hours</h2>
+                <div className='time-group'>
+                    <p className="day-range">Monday to Friday</p>
+                    <p className="time-range1">7:30am - 6pm</p>
+                </div>
+
+                <div className='time-group'>
+                    <p className="day-range">First Saturday of Every Month</p>
+                    <p className="time-range2">Closed</p>
+                </div>
+
+                <div className='time-group'>
+                    <p className="day-range">Saturday</p>
+                    <p className="time-range3">7:30am - 12pm</p>
+                </div>
+                
+                <div className='time-group'>
+                    <p className="day-range">Sunday</p>
+                    <p className="time-range4">Closed</p>
+                </div>
+
             </div>
 
             <div className="Reviews">
@@ -48,6 +67,7 @@ const Home = () => {
 
             <div className="Gallery">
                 <h2>Gallery</h2>
+                
             </div>
 
             <div className="News">
