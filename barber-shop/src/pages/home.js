@@ -4,6 +4,10 @@ import './home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowDown } from '@fortawesome/free-solid-svg-icons';
 
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import ReviewCarousel from './review';
+
 const Home = () => {
     const bookingClick = () => {
         alert('Booking click!');
@@ -33,9 +37,37 @@ const Home = () => {
                 <h2>Welcome to The Barber Shop!</h2>
             </div>
 
-            <div className="Services">
-                <h2>Services</h2>
-            </div>
+             <div className="Services2">
+                <h2>Services with columns</h2>
+                <div className='services-container'>
+                    <div className="services-column">
+                        <p>Haircut Only</p>
+                        <p>Haircut and Wash</p>
+                        <p>Clipper Crew Cut</p>
+                        <p>Kid's Trim</p>
+                    </div>
+                    <div className="prices-column">
+                        <p>$49</p>
+                        <p>$59</p>
+                        <p>$44</p>
+                        <p>$43</p>
+                    </div>
+                    <div className="services-column-2">
+                        <p>Hair Colouring</p>
+                        <p>Tapper Fade</p>
+                        <p>Adult Trim</p>
+                        <p>Buzz cut</p>
+                        
+                    </div>
+                    <div className="prices-column-2">
+                        <p className="price">$30</p>
+                        <p className="price">$25</p>
+                        <p className="price">$20</p>
+                        <p className="price">$20</p>
+                    </div>
+                </div>
+
+             </div>
 
             <div className="Opening-Hours">
                 <h2>Opening Hours</h2>
@@ -63,6 +95,8 @@ const Home = () => {
 
             <div className="Reviews">
                 <h2>Client Reviews</h2>
+                <ReviewCarousel />
+                
             </div>
 
             <div className="Gallery">
