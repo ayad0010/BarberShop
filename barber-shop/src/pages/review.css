@@ -1,29 +1,52 @@
 .carousel .control-dots .dot {
-    background: brown;
-    border: 2px;
-    box-shadow: 0 0 4px gold;
-    
-    width: 20px;
-    height: 20px;
+    background: transparent;
+    border: 3px solid gold;
+    box-shadow: 0 0 6px gold;
+    box-sizing: border-box;
+    margin-bottom: 90px;
+    width: 25px;
+    height: 25px;
+}
+
+.carousel .control-dots .dot.selected {
+    background: gold;
+}
+
+.linkGR {
+    color: white;
+    font-size: 30px;
+
 }
 
 .review-carousel-wrapper {
   max-width: 1800px;
   margin: 2rem auto;
-  text-align: center;
 }
+
+
 
 .review-slide {
   padding: 1.5rem;
-  background-color: #91851d;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-image: url('../Images/cut-hair.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.review-position {
+    padding-top: 150px;
 }
 
 .review-slide p {
+  font-family:cambria;
   font-size: 1.1rem;
-  color: #444;
-  min-height: 600px;
+  color: white;
+  
+  font-size: 50px;
+  size-adjust: fixed;
+
+  min-height: 550px;
   min-width: 500px;
-  font-size: 30px;
 }
+

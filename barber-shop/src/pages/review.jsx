@@ -3,13 +3,14 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './review.css'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGoogle} from '@fortawesome/free-brands-svg-icons';
+
 const reviews = ["I love it!", "UGHHH", "Pricccy $$$$"];
 
 export default function ReviewCarousel() {
   return (
     <div className="Reviews">
-      <h2>Client Reviews</h2>
-
       <div className="review-carousel-wrapper">
         <Carousel
           autoPlay
@@ -24,7 +25,8 @@ export default function ReviewCarousel() {
         >
           {reviews.map((text, index) => (
             <div key={index} className="review-slide">
-              <p>{text}</p>
+              <p className='review-position'>{text}</p>
+              
             </div>
           ))}
         </Carousel>

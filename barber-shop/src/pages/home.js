@@ -3,10 +3,12 @@ import './home.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faGoogle} from '@fortawesome/free-brands-svg-icons';
 
-import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import ReviewCarousel from './review';
+
+import BarberMap from './map';
 
 const Home = () => {
     const bookingClick = () => {
@@ -71,32 +73,37 @@ const Home = () => {
 
             <div className="Opening-Hours">
                 <h2>Opening Hours</h2>
-                <div className='time-group'>
-                    <p className="day-range">Monday to Friday</p>
-                    <p className="time-range1">7:30am - 6pm</p>
-                </div>
+                <div className='parent-container'>
+                    <div className='barberMap'>
+                        <BarberMap />
+                    </div>
+                    <div className='timeInfo'>
+                        <div className='time-group'>
+                            <p className="day-range">Monday to Friday</p>
+                            <p className="time-range1">7:30am - 6pm</p>
+                        </div>
 
-                <div className='time-group'>
-                    <p className="day-range">First Saturday of Every Month</p>
-                    <p className="time-range2">Closed</p>
-                </div>
+                        <div className='time-group'>
+                            <p className="day-range">First Saturday of Every Month</p>
+                            <p className="time-range2">Closed</p>
+                        </div>
 
-                <div className='time-group'>
-                    <p className="day-range">Saturday</p>
-                    <p className="time-range3">7:30am - 12pm</p>
+                        <div className='time-group'>
+                            <p className="day-range">Saturday</p>
+                            <p className="time-range3">7:30am - 12pm</p>
+                        </div>
+                        
+                        <div className='time-group'>
+                            <p className="day-range">Sunday</p>
+                            <p className="time-range4">Closed</p>
+                        </div>
+                    </div>
                 </div>
-                
-                <div className='time-group'>
-                    <p className="day-range">Sunday</p>
-                    <p className="time-range4">Closed</p>
-                </div>
-
             </div>
 
             <div className="Reviews">
                 <h2>Client Reviews</h2>
                 <ReviewCarousel />
-                
             </div>
 
             <div className="Gallery">
