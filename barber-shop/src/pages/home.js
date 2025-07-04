@@ -11,6 +11,7 @@ import ReviewCarousel from './review';
 import BarberMap from './map';
 
 import barberImg from '../Images/barber-window.png';
+import barberMan from '../Images/intro.png';
 
 
 const Home = () => {
@@ -40,6 +41,24 @@ const Home = () => {
 
             <div className="Welcome">
                 <h2>Welcome to The Barber Shop!</h2>
+                <div className='img-text'>
+                <img src={barberMan} alt="Barber who is owner" className='barberOwner'/>
+                <p>Welcome to The Barber Shop! My name is Harry Poter and I'm the owner and head hair stylist at The 
+                    Barber Shop. It was founded in 1943 my granderparents who had a vision for stylish haircuts. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    <h3 className='ownerName'>Harry Potter</h3>
+                    <p>Owner & Head Stylist</p>
+                </p>
+                </div>
             </div>
 
              <div className="Services2">

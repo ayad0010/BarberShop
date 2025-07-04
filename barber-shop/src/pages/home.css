@@ -85,7 +85,7 @@ button {
     display: flex;
     align-items: left;
     gap: 120px;
-    padding-left:400px;
+    padding-left:550px;
 }
 
 .services-column,
@@ -165,4 +165,27 @@ button {
   display: flex;
   height: 250px;
   width: 250px;
+}
+
+.barberOwner {
+  height: 500px;
+  width: 650px;
+}
+
+.img-text {
+    margin-left: 100px ;
+    display: flex;
+    font-size: 20px;
+    line-height: 2;
+    gap:70px;
+}
+
+.img-text p {
+    width: 1000px;
+    text-align: left;
+}
+
+.ownerName{
+    color: black;
+    line-height: 0.5;
 }
