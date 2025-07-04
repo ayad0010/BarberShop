@@ -40,7 +40,7 @@ const Home = () => {
             </div>
 
              <div className="Services2">
-                <h2>Services with columns</h2>
+                <h2>Services</h2>
                 <div className='services-container'>
                     <div className="services-column">
                         <p>Haircut Only</p>
@@ -70,13 +70,21 @@ const Home = () => {
                 </div>
 
              </div>
-
-            <div className="Opening-Hours">
+            <div className="second-heading">
                 <h2>Opening Hours</h2>
+
+            </div>
+            <div className="Opening-Hours">
+                
                 <div className='parent-container'>
                     <div className='barberMap'>
                         <BarberMap />
                     </div>
+
+                    <div className='barber-window'>
+
+                    </div>
+
                     <div className='timeInfo'>
                         <div className='time-group'>
                             <p className="day-range">Monday to Friday</p>

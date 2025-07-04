@@ -1,16 +1,20 @@
 .navbar {
     display: flex;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 50px;
     padding-right: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    /*padding-bottom: 50px;*/
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    text-decoration-color: azure;
+    background-color: #333;
     font-size: 20px;
-    
-    
+    font-family: Helvetica;    
+}
+
+.navbarElement {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.navbarElement:hover {
+    background-color: #111;
 }

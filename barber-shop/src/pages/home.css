@@ -9,6 +9,11 @@
 
 }
 
+.barber-window {
+    background-image: url('../Images/barber-window.png');
+
+}
+
 h1 {
     font-size: 60px;
     color: white;
@@ -55,7 +60,7 @@ button {
 }
 
 .day-range {
-    margin-left: 1300px;
+    margin-left: 800px;
 }
 
 
@@ -100,7 +105,31 @@ button {
 .prices-column-2 p,
 .services-column-2 p {
   margin: 10px 0;
-  font-size: 16px;
+  font-size: 18px;
   font-family: Helvetica;
 }
 
+.timeInfo {
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+
+.barber-window {
+  background-image: url('../Images/barber-window.png');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  padding-left: 160px;
+}
+
+.parent-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 2rem 0;
+
+}
