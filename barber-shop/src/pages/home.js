@@ -10,6 +10,9 @@ import ReviewCarousel from './review';
 
 import BarberMap from './map';
 
+import barberImg from '../Images/barber-window.png';
+
+
 const Home = () => {
     const bookingClick = () => {
         alert('Booking click!');
@@ -82,7 +85,7 @@ const Home = () => {
                     </div>
 
                     <div className='barber-window'>
-
+                        
                     </div>
 
                     <div className='timeInfo'>
@@ -116,6 +119,29 @@ const Home = () => {
 
             <div className="Gallery">
                 <h2>Gallery</h2>
+                <div className='galleryImages'>
+                    <img src={barberImg} alt="Barber at work" />
+                    <img src={barberImg} alt="Barber at work" />
+                    <img src={barberImg} alt="Barber at work" />
+                    <img src={barberImg} alt="Barber at work" />
+
+                </div>
+
+                <div className='galleryImages2'>
+                    <img src={barberImg} alt="Barber at work" />
+                    <img src={barberImg} alt="Barber at work" />
+                    <img src={barberImg} alt="Barber at work" />
+                    <img src={barberImg} alt="Barber at work" />
+
+                </div>
+
+                <div className='galleryImages3'>
+                    <img src={barberImg} alt="Barber at work" />
+                    <img src={barberImg} alt="Barber at work" />
+                    <img src={barberImg} alt="Barber at work" />
+                    <img src={barberImg} alt="Barber at work" />
+
+                </div>
                 
             </div>
 

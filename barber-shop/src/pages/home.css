@@ -2,7 +2,7 @@
     padding-top: 250px;
     font-family: Helvetica;
     font-weight: bold;
-    background-image: url('../Images/barber-background.jpg');
+    background-image: url('../Images/barber-background.png');
     background-size: cover;
     background-position: center;
     height: 650px;
@@ -132,4 +132,37 @@ button {
   align-items: flex-start;
   padding: 2rem 0;
 
+}
+
+
+
+.galleryImages {
+  padding-right: 25px;
+  padding-bottom: 25px;
+  margin-left: 165px;
+  gap: 20px;
+  display: flex;
+  height: 250px;
+  width: 250px;
+}
+
+
+.galleryImages2 {
+  margin-left: 165px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  gap: 20px;
+  display: flex;
+  height: 250px;
+  width: 250px;
+}
+
+.galleryImages3 {
+  margin-left: 165px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  gap: 20px;
+  display: flex;
+  height: 250px;
+  width: 250px;
 }
