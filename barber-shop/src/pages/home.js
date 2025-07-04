@@ -2,9 +2,7 @@ import React from 'react'
 import './home.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleArrowDown } from '@fortawesome/free-solid-svg-icons';
-import { faGoogle} from '@fortawesome/free-brands-svg-icons';
-
+import { faCircleArrowDown, faScissors, faSprayCanSparkles } from '@fortawesome/free-solid-svg-icons';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import ReviewCarousel from './review';
 
@@ -12,6 +10,8 @@ import BarberMap from './map';
 
 import barberImg from '../Images/barber-window.png';
 import barberMan from '../Images/intro.png';
+
+import hairDyeIcon from '../Images/hair colour.png';
 
 
 const Home = () => {
@@ -22,8 +22,8 @@ const Home = () => {
     return (
         <div>
             <div className="HomeScreenText">
-            <h3>STAY SHARP, LOOK GOOD</h3>
-            <h1>NYC'S FAVOURITE <br />BARBER SHOP</h1>
+            <h3>FOR A MAGICAL HAIRCUT</h3>
+            <h1 className='barberShopName'>THE DIAGON ALLEY <br />BARBER SHOP</h1>
             <h3>DIAGON ALLEY, NYC. APPOINTMENT:999 000 8888</h3>
             <br />
 
@@ -91,9 +91,17 @@ const Home = () => {
                     </div>
                 </div>
 
+                <div className='servicesIcon'>
+                    <img src={hairDyeIcon} alt="Hair Dye icon" className='hairDye'/>
+                    <img src={hairDyeIcon} alt="Hair Dye icon" className='hairDye2'/>
+                    <img src={hairDyeIcon} alt="Hair Dye icon" className='hairDye3'/>
+                    <img src={hairDyeIcon} alt="Hair Dye icon" className='hairDye4'/>
+
+                </div>
+
              </div>
             <div className="second-heading">
-                <h2>Opening Hours</h2>
+                <h2>Come Visit Us</h2>
 
             </div>
             <div className="Opening-Hours">

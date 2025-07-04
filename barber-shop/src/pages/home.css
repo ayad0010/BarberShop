@@ -9,6 +9,17 @@
 
 }
 
+div.HomeScreenText h1 {
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+  max-width: 1000px;
+  margin-left: 480px;
+}
+
+
 .barber-window {
     background-image: url('../Images/barber-window.png');
 
@@ -32,13 +43,21 @@ button {
     letter-spacing: 1px;
     cursor: pointer;
     font-size: 18px;
-    border-color: white;
-    border: 1px;
-    
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    border: none;
 }
 
 .Reviews {
     color: black;
+    background-color: #D2B48C;
+    padding: 30px;
 }
 
 .arrowDown {
@@ -60,7 +79,7 @@ button {
 }
 
 .day-range {
-    margin-left: 800px;
+    margin-left: 750px;
 }
 
 
@@ -105,13 +124,13 @@ button {
 .prices-column-2 p,
 .services-column-2 p {
   margin: 10px 0;
-  font-size: 18px;
+  font-size: 20px;
   font-family: Helvetica;
 }
 
 .timeInfo {
     padding-top: 30px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
@@ -134,7 +153,10 @@ button {
 
 }
 
-
+.Gallery h2 {
+    font-size: 40px;
+    padding: 15px;
+}
 
 .galleryImages {
   padding-right: 25px;
@@ -189,3 +211,55 @@ button {
     color: black;
     line-height: 0.5;
 }
+
+.Welcome h2 {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.Services2 {
+    background-color: #D2B48C;
+    padding: 30px;
+}
+
+.Services2 h2 {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.second-heading h2 {
+    font-size: 40px;
+    padding: 15px;
+}
+
+
+.Reviews h2 {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.News h2 {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.servicesIcon{
+  padding: 20px;
+  margin-left: 550px;
+  gap: 60px;
+  display: flex;
+  height: 250px;
+  width: 250px;
+
+}
+
+.hairDye, .hairDye2, .hairDye3, .hairDye4{
+    height: 50px;
+    width: 50px;
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #80461b;
+    border-radius: 20px;
+
+}
+
